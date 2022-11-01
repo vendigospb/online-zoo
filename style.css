@@ -1,4 +1,8 @@
-.nav_class{
+.header{
     display:flex;
-    justify-content: space-around;
-}
+      justify-content:space-between;
+  }
+  .ul_nav{
+    display:flex;
+    list-style:none;
+  }
