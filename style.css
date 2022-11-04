@@ -1,8 +1,57 @@
-.header{
-    display:flex;
-      justify-content:space-between;
+body{
+  font-family: "Roboto", "Arial", sans-serif;
+  margin: 0; 
+  padding: 0; 
+  border: 0;
+}
+.header_nav{
+  max-width: 1600px;
+  height: 80px;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+.link_logo{
+box-sizing: border-box;
+width: 82px;
+height: 52px;
+border: 1px solid #FFFFFF;
+border-radius: 2px;
+text-align: center;
+margin-top: 14px;
+margin-left: 220px;
+
+}
+#link_logo_a{
+ color: white;
+ text-decoration: none;
+ font-weight: 400;
+ font-size: 19px;
+
   }
-  .ul_nav{
-    display:flex;
-    list-style:none;
-  }
+.nav_menu{
+  width: 472px;
+  display: flex;
+  list-style-type:none;
+  margin-top: 29px;
+  margin-left: 24px;
+  justify-content: space-between;
+}
+.link_nav{
+  text-decoration: none;
+  color: white;  
+}
+
+.p_navy{
+  margin-top: 29px;
+  margin-left: 438px;
+}
+
+.section_1{
+  position: relative;
+  top: -101px;
+  height:  780px;
+  background-image:url(images/Panda.png) ;
+  background-repeat: no-repeat;
+}
