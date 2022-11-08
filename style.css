@@ -1,15 +1,18 @@
 body{
   font-family: "Roboto", "Arial", sans-serif;
-  margin: 0; 
-  padding: 0; 
-  border: 0;
+  width: 1600px;
+  margin: 0 ; 
+  padding: 0;
+  
 }
 .header_nav{
+  position: relative;
   max-width: 1600px;
   height: 80px;
   background-color: black;
   color: white;
   display: flex;
+  z-index: 2;
 }
 
 .link_logo{
@@ -48,10 +51,141 @@ margin-left: 220px;
   margin-left: 438px;
 }
 
+/*.section_1{
+  width: 1600px;
+  position: relative;
+  top: -170px;
+  height:  780px;
+  background-image: url(images/Ellipse\ 6.png)   ,
+  url(images/Panda.png) ;
+  background-position: 807px 92px, 0 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
+}*/
+
+.h1_section1{
+position: relative;
+font-size: 106.5px;
+font-weight: 700;
+font-size: 106.496px;
+line-height: 75%;
+text-align: center;
+text-transform: uppercase;
+z-index:2;
+}
+
+/*section_1 h1{
+  position: relative;
+  margin-top: 166px;
+  margin-left: 880px;
+ font-weight: 700;
+ font-size: 106.496px;
+ line-height: 75%;
+ text-align: center;
+ text-transform: uppercase;
+}*/
+
 .section_1{
   position: relative;
-  top: -101px;
-  height:  780px;
-  background-image:url(images/Panda.png) ;
-  background-repeat: no-repeat;
+  margin-bottom: -1107px;
+}
+
+.panda{
+  position: relative;
+  margin-top: -80px;
+}
+
+.block1{
+  position:relative;
+  top: -707px;
+  left: 332px;
+}
+.elipse{
+  position: relative;
+  z-index:1;
+  top: -561px;
+  left: 476px;
+}
+.button_watch_online{
+  position: relative;
+  width: 298px;
+  height: 54px;
+  background-color: #FE9013;
+  border-radius: 25px;
+  top: -512px;
+  left: 653px;
+  text-decoration: none;
+}
+
+.p_watch_online{
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+text-decoration: none;
+padding-top: 16px;
+}
+/*---------------------------------section 2-------------------------------------*/
+.The Backstage of the wilderness world{
+  width: 1600px;
+}
+
+.section2_content{
+  position: relative;
+  display: flex;
+}
+
+.bamboo_cap_content{
+
+  display: flex;
+  margin-left: 219px;
+  margin-top: 128px;
+ 
+}
+
+.bamboo_cap_content img{
+  height: 403px;
+  backdrop-filter: blur(2px)
+}
+
+.bambootext{
+  position:relative;
+  margin-left: 88px;
+  margin-top: -41px;
+
+}
+
+.flower_foto1{
+  position: relative;
+}
+
+.bambootext h2{
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+}
+
+.p1_bambootext{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  margin-top: -17px;
+}
+
+.p2_bambootext{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  margin-top: 53px;
+}
+
+.p3_bambootext{
+  font-weight: 400;
+ font-size: 16px;
+ line-height: 140%;
+ margin-top: 33px;
 }
